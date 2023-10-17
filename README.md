@@ -12,3 +12,31 @@ Passengers on these bus (or shuttle) rides are not only affected by Nairobi traf
 
 # Problem Statement
 This transport data departs from 14 origin points to the first stop on the outskirts of Nairobi, taking approximately 8 to 9 hours. It contains data of more than 50000. In which we have to estimate how many seats MobiTicket can sell in each ride. It consists of 14 different routes leading to the same location Nairobi with different timings and routes.
+
+What did you know about your dataset?
+Answer Here
+
+This dataset is a dataset of demand for a transport which has 51645 rows and 10 columns. In which there is no duplicate value nor any missing value.
+
+# Variables Description
+Answer Here
+
+ride_id: unique ID of a vehicle on a specific route on a specific day and time
+
+seat number: seat assigned to ticket
+
+payment method: method used by customer to purchase ticket from Mobiticket (cash or Mpesa)
+
+payment receipt: unique id number for ticket purchased from Mobiticket
+
+travel_date: date of ride departure. (MM/DD/YYYY)
+
+travel time: scheduled departure time of ride. Rides generally depart on time. (hh:mm)
+
+travel from: town from which ride originated
+
+travel to: destination of ride. All rides are to Nairobi.
+
+car_type: vehicle type (shuttle or bus)
+
+max_capacity: number of seats on the vehicle
